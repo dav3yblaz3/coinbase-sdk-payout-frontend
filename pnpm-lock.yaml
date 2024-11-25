@@ -53,7 +53,7 @@ importers:
         version: 18.3.0
       '@vitejs/plugin-react':
         specifier: ^4.1.0
-        version: 4.3.1(vite@4.5.3(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1))
+        version: 4.3.1(vite@4.5.5(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1))
       '@wagmi/cli':
         specifier: latest
         version: 2.1.18(bufferutil@4.0.8)(typescript@5.4.5)(utf-8-validate@5.0.10)
@@ -67,8 +67,8 @@ importers:
         specifier: ^5.2.2
         version: 5.4.5
       vite:
-        specifier: ^4.4.9
-        version: 4.5.3(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1)
+        specifier: ^4.5.5
+        version: 4.5.5(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1)
 
 packages:
 
@@ -4200,8 +4200,8 @@ packages:
       typescript:
         optional: true
 
-  vite@4.5.3:
-    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
+  vite@4.5.5:
+    resolution: {integrity: sha512-ifW3Lb2sMdX+WU91s3R0FyQlAyLxOzCSCP37ujw0+r5POeHPwe6udWVIElKQq8gk3t7b8rkmvqC6IHBpCff4GQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -6506,14 +6506,14 @@ snapshots:
     dependencies:
       '@types/yargs-parser': 21.0.3
 
-  '@vitejs/plugin-react@4.3.1(vite@4.5.3(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1))':
+  '@vitejs/plugin-react@4.3.1(vite@4.5.5(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1))':
     dependencies:
       '@babel/core': 7.24.7
       '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.24.7)
       '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.24.7)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 4.5.3(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1)
+      vite: 4.5.5(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -9368,7 +9368,7 @@ snapshots:
       - utf-8-validate
       - zod
 
-  vite@4.5.3(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1):
+  vite@4.5.5(@types/node@20.14.2)(sass@1.77.4)(terser@5.31.1):
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.38
