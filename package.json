@@ -12,7 +12,7 @@
   "dependencies": {
     "@ensdomains/ensjs": "^4.0.0",
     "@tanstack/react-query": "5.0.5",
-    "axios": "^1.7.2",
+    "axios": "^1.7.4",
     "papaparse": "^5.4.1",
     "qrcode.react": "^3.1.0",
     "react": "^18.2.0",
