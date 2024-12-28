@@ -5,7 +5,7 @@ import { addIcon, basescanIcon, coinbaseLoading, crossIcon, subtractIcon } from 
 import { toast } from "react-toastify";
 import { FormRow } from "../../types";
 import Papa from "papaparse";
-import { tokens as _tokens } from "../../configs/tokens.config";
+import { tokens as _tokens, newToken } from "../../configs/tokens.config";
 import { useBatchPayout } from "../../hooks/wallet.hooks";
 import { useEnsLookup } from "../../hooks/ens.hooks";
 import { isAddress } from "viem";
@@ -277,6 +277,10 @@ export default function PayoutForm(): React.JSX.Element {
                             {step == 1 && "Cancel"}
                             {step == 2 && "Restart"}
                         </button>}
+                    <div>
+                        <label htmlFor="newTokenAmount">NewToken Amount</label>
+                        <input type="number" id="newTokenAmount" name="newTokenAmount" />
+                    </div>
                 </form>
             </div>
         </div>

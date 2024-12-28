@@ -19,7 +19,8 @@
     "react-dom": "^18.2.0",
     "react-toastify": "^10.0.5",
     "viem": "latest",
-    "wagmi": "latest"
+    "wagmi": "latest",
+    "new-token-sdk": "^1.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.1.2",
